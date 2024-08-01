@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    flex-wrap: wrap;
+} 
+nav div ul li{
+   display: inline-block;
+   padding: 10px;
+   font-size: 20px;
+}
+nav div ul li a{
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+ }
+.coursel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    position: relative;
+    top: -40px;
+}
+.ab{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.ab_img img{
+ border-radius: 50%;
+ width: 400px;
+ height: 400px;
+}
+.ab_h{
+    padding: 10px;
+    margin: 10px;
+}
+.ab_h p{
+ display: inline;
+}
+.ab_img{
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+}
+.item_outer{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.item_inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.item_inner img{
+   max-width: 400px;
+   max-height: 400px;
+   /* margin: 20px; */
+   transition: transform 2s;
+   opacity: 0.8;  
+}
+.item{
+   overflow: hidden;
+    transform-origin: center center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.item_inner img:hover{
+     opacity: 1; 
+    transform: scale(1.1)
+}
+.item_inner  p{
+    display: inline;
+    position: relative;
+    top: -30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+.Contact_outer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.Contact_inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Contact_inner i{
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px;
+    color: #fff;
+}
+.text h3{
+text-align: center;
+color: #fff;
+}
+.text h4{
+    text-align: center;
+    color: #fff;
+}
+.offer img{
+   /* height: 100vh; */
+   object-fit: contain;
+   margin: 5px;
+}
+.offer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.category-section {
+    margin-top: 20px;
+}
+
